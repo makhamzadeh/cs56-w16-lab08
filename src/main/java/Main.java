@@ -21,7 +21,13 @@ public class Main {
     staticFileLocation("/public");
 
     get("/hello", (req, res) -> "Hello World");
+<<<<<<< HEAD
     get("/ucsb", (req, res) -> "Go Gauchos");
+=======
+    
+    get("/ucsb", (req, res) -> "Go Gauchos"); 
+    
+>>>>>>> ce4547b006a0b7468ca31f9886563ed12c7f8cb4
     get("/", (request, response) -> {
             Map<String, Object> attributes = new HashMap<>();
             attributes.put("message", "Hello World!");
